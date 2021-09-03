@@ -25,7 +25,7 @@ function App() {
       });
     wave.fromElement("audio_element", "canvas_element", {
       type: "flower",
-      colors: ['#000', '#fff']
+      colors: ['#fcec52', '#ffc100', '#ade25d']
     });
   }, [setCurrentSongIndex, wave]);
 
